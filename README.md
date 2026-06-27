@@ -12,12 +12,14 @@ A terminal-based AI agent that autonomously:
 - **Generate formatted markdown reports** with structured insights
 - **Maintain conversation memory** across sessions
 
-Built to showcase **LangChain Week 1 fundamentals** in a real-world workflow.
+Built to showcase **Studying `GenAI & Agentic AI` Week 1 fundamentals** in a real-world workflow.
 
 
 ## ⚙️ Core Technologies
 
 - **LangChain** — agentic AI framework & LCEL chains
+- **LangGraph** — agentic AI framework & Memory handling
+- **Tavily** — Web search tool
 - **Gemini 2.5 Flash** — LLM backbone
 - **Python 3.9+** — implementation language
 - **Structured Output Parsing** — JSON & markdown generation
@@ -70,4 +72,4 @@ python main.py
 ---
 
 **Portfolio piece for:** AI Engineers, LLM builders, GenAI practitioners  
-**Built with:** LangChain, Gemini API, Python
+**Built with:** LangChain, LangGraph, Tavily, Gemini API, Python
