@@ -34,7 +34,7 @@ cd Smart-Research-Assistant
 pip install -r requirements.txt
 export GOOGLE_API_KEY="your-key-here"
 
-python main.py
+python agent.py
 ```
 
 
@@ -45,9 +45,7 @@ python main.py
 
         ├── tools/               # Custom research & calculation tools
 
-        ├── agents/              # Agent definitions & memory handling
-
-        ├── reports/             # Generated markdown summaries
+        ├── agent/              # Agent definitions & memory handling
 
         └── requirements.txt     # Dependencies
 
